@@ -209,7 +209,7 @@
                 width: 100px;
             }
         }
-         @media (orientation: portrait) and (min-width:430px){
+         @media (orientation: portrait) and (min-width:450px){
             #skillCon{
                 font-size: 20px;
             }
@@ -541,4 +541,5 @@
             #about{
                 line-height: 20px;
             }
+
           }
