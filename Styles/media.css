@@ -1,0 +1,544 @@
+ /* Media */
+
+        /* portrait */
+        @media (orientation: portrait){
+            #right{
+                height: 45vh;
+                display: flex;
+                justify-content: center;
+                order: 1;
+                background-color: bisque;
+                border-radius: 10%;
+                width: 55%;
+            }
+            #left{
+                display: flex;
+                height: auto;
+                order: 2;
+                padding: 30px;
+                font-size: 22px;
+            }
+            #cv{
+            background-color: orange;
+            margin-top: 40px;
+            color: black;
+            width: 200px;
+            height: 50px;
+            border-radius: 30px;
+            
+            }
+            #cva{
+                align-self: center;
+            }
+            #name{
+                margin-top: 20px;
+            }
+            #about{
+                margin-top: 30px;
+                text-align: justify;
+                line-height: 30px;
+                text-indent: 80px;
+            }
+            #home{
+                flex-direction: column;
+                align-items: center;
+            }
+            #menu{
+                width: 100%;
+                height: 10vh;
+                flex-shrink: 0;
+                font-size: 20px;
+                gap: 25px;
+            }
+            #aca{
+                font-size: 18px;
+            }
+
+        }
+         @media (orientation: portrait) and (max-width:595px){
+            #right{
+                width: 60%;
+            }
+            #menu{
+                font-size: 18px;
+            }
+         }
+        @media (orientation: portrait) and (max-width:480px){
+            #left{
+                font-size: 16px;
+            }
+            #right{
+                width: 70%;
+                height: 45vh;
+            }
+            #about{
+                margin-top: 20px;
+            }
+            #menu{
+                font-size: 17px;
+            }
+        }
+        @media (orientation: portrait) and (max-width:450px){
+            #menu{
+                font-size: 16px;
+                gap: 15px;
+            }
+        }
+
+        @media (orientation: portrait) and (max-width:390px){
+            #left{
+                font-size: 13px;
+            }
+            #right{
+                width: 60%;
+                height: 35vh;
+            }
+            #about{
+                margin-top: 18px;
+                line-height: 25px;
+            }
+            #menu{
+                font-size: 13px;
+                gap: 8px;
+            }
+        }
+        @media (orientation: portrait) and (max-width:310px){
+            #left{
+                font-size: 12px;
+            }
+            #right{
+                width: 80%;
+                height: 35vh;
+            }
+            #about{
+                margin-top: 16px;
+                line-height: 25px;
+            }
+            #menu{
+                font-size: 12px;
+                gap: 6px;
+            }
+        }
+        @media (orientation: portrait) and (max-width:290px){
+            #left{
+                font-size: 11px;
+            }
+            #right{
+                width: 70%;
+                height: 35vh;
+            }
+            #about{
+                margin-top: 14px;
+                line-height: 20px;
+            }
+            #menu{
+                font-size: 10px;
+                gap: 6px;
+            }
+        }
+        @media (orientation: portrait) and (max-width:270px)
+        {
+            #left{
+                font-size: 10px;
+            }
+            #right{
+                width: 75%;
+                height: 30vh;
+            }
+            #about{
+                margin-top: 14px;
+                line-height: 20px;
+            }
+        }
+        @media (orientation: portrait) and (min-width:800px){
+            #aca{
+                font-size: 20px;
+            }
+        }
+        @media (orientation: portrait) and (min-width:450px){
+            #right{
+                height: 60vh;
+            }
+        }
+        @media (orientation: portrait) and (max-width:450px){
+            #right{
+                width: 60vw;
+                height: 40vh;
+            }
+        }
+        @media (orientation: portrait) and (max-width:320px){
+            #right{
+                width: 70%;
+                height: 30vh;
+            }
+        }
+        @media (orientation: portrait) and (max-width:220px){
+            #right{
+                width: 80%;
+                height: 30vh;
+            }
+        }
+        @media (orientation: portrait) and (max-width:370px){
+            .titles{
+                font-size: 25px;
+            }
+        }
+
+
+
+
+
+
+
+        /* Skills */
+
+
+        
+        @media (orientation: portrait) and (min-width:661px){
+            #skillBox{
+                flex-wrap: wrap;
+                overflow: visible;
+                height: auto;
+            }
+            #inner{
+                flex-wrap: wrap;
+                overflow: visible;
+            }
+            .box{
+                height: 100px;
+                width: 100px;
+            }
+        }
+         @media (orientation: portrait) and (min-width:430px){
+            #skillCon{
+                font-size: 20px;
+            }
+         }
+          @media (orientation: portrait) and (min-width:730px){
+            #skillCon{
+                font-size: 22px;
+            }
+          }
+          @media (orientation: portrait){
+            #skillCon{
+                flex-direction: column;
+            }
+        }
+
+
+
+        
+        
+
+        
+
+
+
+
+
+
+
+
+        /* Projectsssss */
+
+        @media (orientation: portrait) and (max-width:390px)
+        {
+            .projectNameDiv{
+                font-size: 25px;
+            }
+            .projectImages{
+                height: 100px;
+                width: 200px;
+            }
+        }
+         @media (orientation: portrait) and (max-width:440px){
+            .projectImages{
+                height: 150px;
+                width: 200px;
+            }
+         }
+          @media (orientation: portrait) and (max-width:350px){
+            .projectImages{
+                height: 100px;
+                width: 200px;
+            }
+          }
+        @media  (orientation: portrait) and (min-width:500px){
+            .projectNameDiv{
+                font-size: 35px;
+            }
+            .projectImages{
+                height: 150px;
+                width: 200px;
+            }
+            .learnMoreButton{
+                height: 40px;
+                width: 120px;
+            }
+        }
+        @media  (orientation: portrait) and (min-width:800px){
+            .projectNameDiv{
+                font-size: 35px;
+            }
+            .projectImages{
+                height: 300px;
+                width: 300px;
+            }
+            .learnMoreButton{
+                height: 50px;
+                width: 150px;
+            }
+        }
+        @media (orientation: portrait) and (max-width:600px){
+            .projectNameDiv{
+                font-size: 20px;
+            }
+        }
+         @media (orientation: portrait) and (max-width:600px){
+            .projectNameDiv{
+                font-size: 20px;
+            }
+        }
+
+
+
+
+
+        /* Contact */
+
+        @media (min-width:540px){
+            #contactContent{
+                /* display: grid;
+                grid-template-columns:  repeat(2,1fr); */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Landscape */
+
+        @media (orientation: landscape){
+            #right{
+                height: 80vh;
+                width: 40%;
+                display: flex;
+                overflow: hidden;
+            }
+            #menu{
+                width: 100%;
+                height: 20vh;
+                font-size: 22px;
+                gap: 30px;
+                /* height: 10vh; */
+            }
+            #left{
+                width: 60%;
+                /* flex-wrap: wrap; */
+                font-size: 20px;
+                /* margin-top: 50px; */
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            #home{
+                flex-direction: row;
+            }
+            #quote{
+                margin-top: 50px;
+                font-size: 1em;
+            }
+            #name{
+                margin-top: 40px;
+                font-size: 3em;
+            }
+            #role{
+                font-size: 2.5em;
+            }
+            #about{
+                font-size: 1.2em;
+                text-align: justify;
+                text-indent: 100px;
+                line-height: 40px;
+                margin-top: 30px;
+            }
+            #cv{
+                height: 50px;
+                width: 240px;
+                border-radius: 50px;
+                /* justify-self: center; */
+                align-self: center;
+                color:black ;
+            }
+            #cva{
+                margin-top: 20px;
+                align-self: center;
+            }
+            #aca{
+                font-size: 22px;
+            }
+            #skillBox{
+                /* border: 2px solid white; */
+                display: flex;
+                flex-wrap: wrap;
+                overflow: visible;
+                flex-grow: 1;
+                height: auto;
+            }
+            #inner{
+                flex-wrap: wrap;
+                overflow: visible;
+            }
+            .box{
+                height: 100px;
+                width: 100px;
+            }
+
+            #allProject{
+                display:row;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 0px;
+                row-gap: 20px;
+                
+            }
+            .projectBox{
+                width: 50%;
+                font-size: 20px;
+                justify-content: space-around;
+            }
+            .projectName{
+                display: inline;
+                word-wrap: normal;
+            }
+            .projectImages{
+                width: 250px;
+                height: 200px;
+            }
+             .detailsContact{
+                font-size: 24px;
+             }
+             .projectDetails{
+                max-width: none;
+             }
+        }
+         @media (orientation: landscape) and (min-width:1350px){
+            #aca{
+                font-size: 25px;
+            }
+            .titles{
+                font-size: 35px;
+            }
+         }
+        @media (orientation: landscape) and (max-width:1370px){
+            #left{
+                font-size: 18px;
+            }
+            #cva{
+                margin-top: 20px;
+                align-self: center;
+            }
+        }
+        @media  (orientation: landscape) and (max-width:1260px){
+            #right{
+                width: 50%;
+                height: 80vh;
+            }
+            #left{
+                width: 50%;
+                font-size: 14px;
+            }
+        }
+         @media  (orientation: landscape) and (max-width:1020px){
+            #quote{
+                margin-top: 80px;
+            }
+            #right{
+                width: 55%;
+            }
+            #left{
+                width: 45%;
+            }
+         }
+         @media  (orientation: landscape) and (max-width:970px){
+            #left{
+                font-size: 12px;
+            }
+
+         }
+
+
+
+
+
+         /* skils  */
+           @media (orientation: landscape) and (min-width:1320px){
+            .box{
+                height: 100px;
+                width: 100px;
+            }
+          }
+          @media (orientation: landscape){
+            #skillCon{
+                font-size: 20px;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                flex-wrap: wrap;
+                row-gap: 5px;
+            }
+          }
+
+
+
+          /* Projects */
+
+
+
+
+
+          /* External for Mobile Landscape For Home page  */
+          @media (orientation: landscape) and (max-height:760px){
+            #right{
+                width: 30%;
+            }
+            #left{
+                width: 70%;
+            }
+          }
+          @media (orientation: landscape) and (max-height:700px){
+            #right{
+                width: 30%;
+            }
+            #left{
+                width: 70%;
+                font-size: 14px;
+            }
+          }
+          @media (orientation: landscape) and (max-height:500px){
+            #right{
+                width: 25%;
+            }
+            #left{
+                width: 75%;
+                font-size: 10px;
+            }
+            #about{
+                line-height: 20px;
+            }
+          }

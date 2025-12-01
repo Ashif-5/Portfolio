@@ -1,0 +1,21 @@
+/* Scrollll */
+
+@media (orientation: portrait) and (max-width:660px){
+    #inner{
+        animation-name: scroll;
+            animation-duration: 20s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            width: max-content;
+    }
+}
+@keyframes scroll{
+            from{
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(-100%);
+            }
+        }
+
+        

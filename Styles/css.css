@@ -1,0 +1,363 @@
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        #all{
+            /* min-height: 100%; */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+        }
+        #home{
+            width: 100%;
+            /* background-color: black; */
+            border: 2px solid black;
+            display: flex;
+        }
+        #menu{
+            /* height: 10vh; */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            /* border: 2px solid white; */
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .menuCon{
+            text-decoration: none;
+            text-transform: capitalize;
+            color: white;
+            font-size: 1em;
+        }
+        #left{
+            /* border: 2px solid white; */
+            display: flex;
+            flex-direction: column;
+        }
+        #cv{
+            background-color: orange;
+            color: black;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #right{
+            /* border: 2px solid white; */
+            justify-content: center;
+            overflow: hidden;
+        }
+        #quote{
+            font-size: 1em;
+            color: white;
+        }
+        #name{
+            font-size: 2em;
+            color: orange;
+            font-family: sans-serif;
+            /* text-shadow:  1px 1px 2px white; */
+        }
+        #role{
+            font-size: 1.5em;
+            color: deepskyblue;
+            font-family: sans-serif;
+        }
+        #about{
+            font-size: 1em;
+            color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .titles{
+            color: orange;
+            padding: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #aca{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            /* align-items: center; */
+            padding-left: 15px;
+            padding-right: 15px;
+            gap: 20px;
+        }
+        .acaCon{
+            color: bisque;
+            font-size: 1em;
+            line-height: 20px;
+            text-align: justify;
+            text-transform: capitalize;
+        }
+        #degree,#hsc,#sslc{
+            display: flex;
+            gap: 10px;
+            /* border: 2px solid white; */
+        }
+        h4{
+            display: inline;
+        }
+        .eduIcon{
+            color: white;
+             margin: 3px;
+        }
+        #skillBox{
+            margin-top: 20px;
+            height: 100px;
+            width: 90vw;
+            /* border: 2px solid white; */
+            display: flex;
+            overflow: scroll;
+            justify-self: center;
+        }
+        #skillBox::-webkit-scrollbar{
+            display: none;
+        }
+        .box{
+            overflow: hidden;
+            height: 100%;
+            width: 100px;
+            /* object-fit: contain; */
+            /* border: 2px solid white; */
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            border-radius: 10px ;
+            flex-shrink: 0;
+            object-fit: contain;
+        }
+        #inner{
+            display: flex;
+            gap: 20px;
+        }
+
+
+
+
+
+
+
+        
+        .points{
+            display: flex;
+            gap: 10px;
+            font-size: 18px;
+            /* border: 2px solid white; */
+        }
+        .para{
+            color: bisque;
+            font-size: 1em;
+        }
+        .dot{
+            color: white;
+            font-size: 8px;
+            margin-top: 5px;
+        }
+
+
+
+
+        #skillCon{
+            margin-top: 50px;
+            display: flex;
+            /* border: 2px solid white; */
+            width: 90vw;
+            justify-self: center;
+        }
+        /* .skillBox ul{
+            margin-left: 0px;
+        } */
+       .skillTopics{
+        color: orange;
+        font-size: 1.2em;
+        font-family: Arial, Helvetica, sans-serif;
+        /* border: 2px solid white; */
+        text-transform: capitalize;
+
+       }
+       .disc{
+        list-style-type: disc;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 25px;
+
+       }
+       .skillPoints{
+        color: white;
+        font-size: 1em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: capitalize;
+        line-height: 40px;
+       }
+       .skillIcon{
+        color: rgb(72, 212, 237);
+       }
+       .disc{
+        list-style-type: disc;
+       }
+
+
+
+
+
+
+
+
+
+       /* PROJECTSSSS */
+       #allProject{
+        width: 90vw;
+        /* height: auto; */
+        /* border: 2px solid white; */
+        display: flex;
+        gap: 30px;
+        justify-self: center;
+        flex-direction: column;
+       }
+       .projectBox{
+        justify-content: space-around;
+        /* border: 2px solid white; */
+        display: flex;
+        flex-direction: row;
+       }
+       .projectDetails
+       {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: space-evenly;
+        overflow: hidden;
+        /* margin-right: 20px;
+        margin-left: 20px; */
+        /* border: 2px solid blue; */
+        max-width: 40%;
+       }
+       .projectImages{
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        /* border: 2px solid white; */
+        overflow:hidden ;
+        flex-shrink: -1;
+        width: 150px;
+        height: 150px;
+       }
+       .projectImages img{
+        object-fit: contain;
+       }
+       .projectNameDiv{
+        font-size: 30px;
+        /* border: 2px solid white; */
+        display: grid;
+        flex-wrap: wrap;
+       }
+       .projectName{
+        font-size: 1em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: bisque;
+        font-weight: 500;
+        text-align: center;
+        text-wrap: 2;
+
+        padding-left: 20px;
+        padding-right: 20px;
+       }
+       .learnMoreLink{
+        align-self: center;
+        text-decoration: none;
+       }
+       .learnMoreButton{
+        height: 40px;
+        width: 90px;
+        /* border: 2px solid white; */
+        border-radius: 20px;
+        color: white;
+        background-color: gray;
+       }
+
+
+
+
+
+
+
+
+
+
+
+        /* Contact */
+
+
+        #contact{
+            display: flex;
+            flex-direction: column;
+        }
+        #letsTalk{
+            align-self: center;
+        }
+        #letsTalk button{
+            height: 50px;
+            width: 150px;
+            background-color: orange;
+            border-radius: 30px;
+        }
+        #contactContent{
+            margin-top: 40px;
+            width: 90vw;
+            display: flex;
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+            gap: 15px;
+            /* border: 2px solid white; */
+            align-self: center;
+            margin-bottom: 50px;
+        }
+        .detailsContact{
+            color: bisque;
+            display: flex;
+            justify-content: center;
+            /* border: 2px solid white; */
+            font-size: 20px;
+            align-items: center;
+        }
+        .info{
+            text-decoration: none;
+            font-size: 1em;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .det{
+            gap: 5px;
+        }
+        .cell{
+            color: green;
+        }
+        .email{
+            color: aqua;
+        }
+        .in{
+            color: rgb(38, 170, 235);
+        }
+        .ig{color: fuchsia;
+        }
+        .loc{
+            color: rgb(239, 165, 16);
+        }
+        
+        
+
+
+
+
+
+
+
+
+
+
+       
