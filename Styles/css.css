@@ -167,6 +167,7 @@
             display: flex;
             /* border: 2px solid white; */
             width: 90vw;
+            padding-left:20px;
             justify-self: center;
         }
         /* .skillBox ul{
@@ -350,6 +351,7 @@
         }
         
         
+
 
 
 
