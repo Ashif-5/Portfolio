@@ -91,6 +91,7 @@
             color: bisque;
             font-size: 1em;
             line-height: 20px;
+            padding: 30px;
             text-align: justify;
             text-transform: capitalize;
         }
@@ -122,6 +123,7 @@
             overflow: hidden;
             height: 100%;
             width: 100px;
+            padding: 30px;
             /* object-fit: contain; */
             /* border: 2px solid white; */
             display: flex;
@@ -217,7 +219,7 @@
         /* border: 2px solid white; */
         display: flex;
         gap: 30px;
-        justify-self: center;
+        justify-self:center;
         flex-direction: column;
        }
        .projectBox{
@@ -364,4 +366,5 @@
 
 
        
+
 
