@@ -140,8 +140,12 @@
         #inner{
             display: flex;
             gap: 20px;
+            overflow:scroll;
             padding-left: 30px;
             padding-right: 30px;
+        }
+         #inner::-webkit-scrollbar{
+            display: none;
         }
 
 
@@ -372,6 +376,7 @@
 
 
        
+
 
 
 
