@@ -79,9 +79,9 @@
             flex-direction: column;
             margin-top: 30px;
             /* align-items: center; */
-            /* padding-left: 15px;
-            padding-right: 15px; */
-            padding: 30px;
+            padding-left:30px;
+            padding-right: 30px;
+            
             gap: 20px;
         }
          .titles{
@@ -370,6 +370,7 @@
 
 
        
+
 
 
 
